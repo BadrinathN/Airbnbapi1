@@ -20,6 +20,7 @@ app.use(cookieParser());
 app.use('/uploads', express.static('C:/Users/Admin/Downloads/HTML DAY 5/react/clientapi/uploads'));
 app.use(cors({
     credentials: true,
+    origin: true,
   }));
 
 
